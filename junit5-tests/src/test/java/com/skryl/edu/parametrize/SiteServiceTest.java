@@ -1,5 +1,6 @@
-package com.skryl.edu;
+package com.skryl.edu.parametrize;
 
+import com.skryl.edu.SiteService;
 import com.skryl.edu.extensions.SiteServiceInjector;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

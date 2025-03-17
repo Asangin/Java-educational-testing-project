@@ -1,5 +1,6 @@
-package com.skryl.edu;
+package com.skryl.edu.parametrize;
 
+import com.skryl.edu.User;
 import com.skryl.edu.extensions.TestCase;
 import com.skryl.edu.extensions.UserParameterConverter;
 import org.junit.jupiter.params.ParameterizedTest;

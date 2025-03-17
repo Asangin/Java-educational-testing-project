@@ -53,7 +53,6 @@ public class PlaywrightIT {
                 .chooseCategory(MainPage.BookCategory.Magazine)
                 .chooseFormat(MainPage.BookFormat.eBook)
                 .createBook();
-
     }
 
     @Test

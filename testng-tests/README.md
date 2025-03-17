@@ -69,3 +69,10 @@ public class PreconditionSequenceTest {
     }
 }
 ```
+
+### Run TestNG suites with maven
+
+```bash
+mvn clean test -pl testng-tests -amd -Dsurefire.suiteXmlFiles=src/test/resources/all-tests.xml
+```
+
