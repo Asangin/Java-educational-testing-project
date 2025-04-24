@@ -25,6 +25,8 @@
         <module>testng-tests</module>
         <module>assertj-tests</module>
         <module>reportportal-tests</module>
+        <module>gatling-playwright-tests</module>
+        <module>open-telemetry-junit5-tests</module>
     </modules>
 
     <properties>
