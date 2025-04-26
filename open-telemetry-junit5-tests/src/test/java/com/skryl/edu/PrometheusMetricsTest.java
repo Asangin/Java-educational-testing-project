@@ -1,6 +1,6 @@
 package com.skryl.edu;
 
-import com.skryl.edu.otel.MeterTraceExample;
+import com.skryl.edu.otel.MeterExample;
 import io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk;
 import lombok.extern.java.Log;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ public class PrometheusMetricsTest {
     @Test
     public void sendTestMetricsToPrometheusV2() throws InterruptedException {
         var openTelemetry = AutoConfiguredOpenTelemetrySdk.initialize().getOpenTelemetrySdk();
-        var autoConfigExample = new MeterTraceExample(openTelemetry);
-        autoConfigExample.doWorkV2();
+        var autoConfigExample = new MeterExample(openTelemetry);
+        autoConfigExample.doWork();
     }
 }
