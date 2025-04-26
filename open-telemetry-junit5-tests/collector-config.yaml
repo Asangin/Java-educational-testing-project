@@ -13,8 +13,14 @@ exporters:
     endpoint: "collector:8889"
   jaeger:
     endpoint: "jaeger:14250"
+    tls:
+      insecure: true
+
+extensions:
+  zpages: {}
 
 service:
+  extensions: [zpages]
   pipelines:
     metrics:
       receivers: [otlp]
